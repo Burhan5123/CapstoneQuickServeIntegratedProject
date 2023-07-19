@@ -1,0 +1,204 @@
+#createTicket_ticketHeader {
+  color: #f2f2f2;
+  font-weight: bold;
+  background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+  margin: 0;
+  font-size: 30px;
+}
+
+
+#createTicket_issueTicketMain {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+/* Apply some basic styling to the form */
+
+/* Style the labels */
+#createTicket_label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Style the input/select elements */
+#createTicket_form input[type="text"],
+#createTicket_form select,
+#createTicket_form textarea {
+  width: 70%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #6e897c;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Style the submit button */
+#createTicket_form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#createTicket_form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#createTicket_form input[type="reset"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+#createTicket_form input[type="reset"]:hover {
+  background-color: #45a049;
+}
+
+/* Apply some additional styling for better visual feedback */
+#createTicket_form input[type="text"]:focus,
+#createTicket_form select:focus,
+#createTicket_form textarea:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px #4caf50;
+}
+
+#createTicket_issueTicketFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: #f2f2f2;
+  background-color: #1ca77b;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#createTicket_logoPic {
+  max-width: 150px;
+}
+
+#createTicket_form nav {
+  padding: 10px;
+}
+
+#createTicket_form ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#createTicket_form li {
+  display: flex;
+  align-items: center;
+}
+
+#createTicket_logoPic {
+  margin-right: 10px;
+}
+
+#createTicket_form h1 {
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#createTicket_form a {
+  color: #fff;
+  display: block;
+  width: 150%;
+  padding: 10px;
+  background-image: linear-gradient(315deg, rgb(77, 192, 90) 0%, #306745 94%);
+  text-decoration: none;
+}
+#createTicket_form a:hover {
+  background-color: #00ff0d;
+  width: 200%;
+}
+
+.createTicket_logout {
+  margin-left: auto;
+}
+
+#createTicket_issueTicket {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: #f2f9f2;
+}
+
+/* Apply media queries for responsiveness */
+@media (max-width: 600px) {
+  #createTicket_issueTicketMain {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #createTicket_form {
+    max-width: 100%;
+  }
+  #createTicket_form input[type="text"],
+  #createTicket_form select,
+  #createTicket_form  textarea {
+    width: 100%;
+  }
+  #createTicket_form  a {
+    color: #fff;
+    display: block;
+    width: 90%;
+    padding: 5px;
+    background-image: linear-gradient(315deg, rgb(77, 192, 90) 0%, #306745 94%);
+    text-decoration: none;
+    font-size: 25px;
+  }
+  #createTicket_form a:hover {
+    background-color: #00ff0d;
+    width: 200%;
+  }
+}
+
+/* Apply media queries for responsiveness */
+@media (max-width: 800px) {
+  #createTicket_ticketHeader {
+    color: #f2f2f2;
+    font-weight: bold;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+    margin: 0;
+    font-size: 27px;
+  }
+
+  #createTicket_issueTicketMain {
+    width: 75%;
+    text-align: center;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+  #createTicket_form {
+    max-width: 100%;
+  }
+  #createTicket_form  input[type="text"],
+  #createTicket_form  select,
+  #createTicket_form textarea {
+    width: 100%;
+  }
+}

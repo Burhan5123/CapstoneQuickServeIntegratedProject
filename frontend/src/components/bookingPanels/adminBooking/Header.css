@@ -1,0 +1,246 @@
+.header-ab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 100%;
+}
+
+.header-ab.clicked{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#logo-ab{
+    max-width: 150px;
+    margin-top: 15px;
+}
+
+.title-ab{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #000;
+}
+
+.user-container-ab{
+    display: none;
+}
+
+.user-container-ab.active{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+}
+
+.header-icon-ab{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.user-email-ab{
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 414px){
+    .header-ab{
+        display: flex;
+        flex-direction: row;
+        align-items:flex-start;
+        /* background-image: linear-gradient(0deg, #63d471 0%, #233329 85%); */
+        /* background-image: linear-gradient(0deg, #56ab2f 0%, #fff 50%); */
+        background-color: #fff;
+        height: 100%;
+        padding: 0;
+    }
+
+    #logo-ab{
+        max-width: 100px;
+        padding-left: 10px;
+    }
+
+    .title-ab{
+        font-size: 18px;
+    }
+    
+    .header-ab.clicked{
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        padding: 0 20px;
+        align-items: flex-start;
+    }
+
+    .user-container-ab.active{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 50px;
+        left: 80%;
+        padding-right: 20px;
+    }
+
+    .header-icon-ab{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .user-email-ab{
+        font-size: 13px;
+        display: none;
+    }
+
+    .burger-ab{
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 667px){
+    .header-ab{
+        padding: 20px;
+        
+    }
+
+    .header-ab.clicked{
+        height: 100px;
+        padding: 10px 25px;
+    }
+    
+    .user-container-ab.active{
+        top: 60px;
+        left: 80%;
+        padding: 0;
+    }
+
+    #logo-ab{
+        max-width: 150px;
+    }
+
+    .title-ab{
+        font-size: 20px;
+        font-weight: 600;
+        padding-right: 20px;
+    }
+
+    .header-icon-ab{
+        font-size: 22px;
+        margin-right: 10px;
+    }
+
+    .burger-ab{
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .header-ab{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 25px;
+    }
+
+    .header-ab.clicked{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-container-ab{
+        display: flex;
+        position: static;
+        justify-content: center;
+        align-items: center;
+        padding-right: 25px;
+    }
+
+    .user-container-ab.active{
+        display: flex;
+        position: static;
+        justify-content: center;
+        align-items: center;
+        margin-right: 25px;
+    }
+
+    #logo-ab{
+        max-width: 170px;
+    }
+
+    .title-ab{
+        font-size: 22px;
+        font-weight: 600;
+        padding-right: 20px;
+    }
+
+    .header-icon-ab{
+        font-size: 22px;
+    }
+
+    .burger-ab{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 844px){
+    .user-container-ab{
+        display: flex;
+        position: static;
+        justify-content: center;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    .user-container-ab.active{
+        display: flex;
+        position: static;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    
+    .user-email-ab{
+        font-size: 15px;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1180px){
+    .header-ab{
+        padding: 0px 60px;
+    }
+
+    #logo-ab{
+        max-width: 180px;
+    }
+
+    .title-ab{
+        font-size: 24px;
+    }
+
+    .user-email-ab{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .header-ab{
+        padding: 0px 100px;
+    }
+
+    #logo-ab{
+        max-width: 200px;
+    }
+}
+
+
+
+

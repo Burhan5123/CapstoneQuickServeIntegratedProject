@@ -1,0 +1,68 @@
+.row-container-ab{
+    font-size: 11px;
+}
+
+.button-delete-ab{
+    background-color: #f44848;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: 100%; /* Ajustar al ancho disponible */
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    border: #000 1px solid;
+}
+
+.button-modify-ab{
+    background-color: #ffd500;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: 100%; /* Ajustar al ancho disponible */
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    border: #000 1px solid;
+}
+
+.button-delete-ab:hover {
+    background-color: white;
+    border: #f44848 1px solid;
+    color: #000;
+}
+
+.button-modify-ab:hover{
+    border: #ffd500 1px solid;
+    background-color: white;
+    color: #000;
+
+}
+
+@media only screen and (min-width: 667px){
+    .row-container-ab{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .row-container-ab{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1180px){
+    .row-container-ab{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .row-container-ab{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,152 @@
+button {
+    margin-top: 3%;
+}
+
+.Contents {
+    background-color: rgba(142, 142, 142, 0.479);
+    border-radius: 15px;
+    width: 75%;
+    height: auto;
+    max-height: 550vh;
+    float: right;
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+    padding: 10vh;
+    display: block;
+}
+
+#viewUsers table {
+    text-align: left;
+    border: 2px solid #212529 !important;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden; 
+}
+
+#viewUsers th, #viewUsers td {
+    border-bottom: 1px solid #FFF !important; 
+}
+
+.thead-dark {
+    color: #FFF;
+    background-color: #212529 !important;
+    border-color: #32383e !important;
+}
+
+#viewUsers tbody {
+    background-color: #FFF !important;
+    border-color: #FFF !important;
+}
+
+#default {
+    display: block;
+}
+
+#default img {
+    width: 100%;
+    height: auto;
+    max-width: 555px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  #000000;
+}
+
+#settings h1, #viewUsers h1, #addUser h1, #delUser h1, #reactUser h1, #deactUser h1 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 1px 1px #5c5b5b;
+}
+
+#settings form {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+#searchBar {
+    display: flex;
+    flex-direction: row;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+}
+
+#search label {
+    margin: 0 !important;
+    float: left;
+    text-align: left;
+}
+
+#search input {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* label {
+    margin: 0 !important;
+    text-align: center;
+    float: none !important;
+} */
+
+
+form div label {
+    margin-left: 65%;
+    text-align: left;
+    float: right;
+    line-height: 2.5;
+}
+
+form div input {
+    max-width: 355px;
+    width: 100%;
+    max-height: 255px;
+    height: auto;
+}
+
+#checkbox {
+    text-align: center;
+    display: block;
+}
+
+#confirmation {
+    text-align: center;
+    margin: 0;
+}
+
+#confirmationTxt {
+    margin-left: 0;
+    text-align: center;
+    float: none !important;
+}
+
+#settings form div, #addUser form div, #delUser form div, #reactUser form div, #deactUser form div {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 1% 0 1% 0;
+}
+
+#greetings {
+    font-size: 35px;
+    font-weight: 900;
+    font-variant-caps: all-small-caps;
+    color: #FFF;
+    text-shadow: 2px 2px #000000;
+    margin-top: 1%;
+}
+
+#dateToday {
+    text-decoration: underline;
+}
+
+/* Checkbox */
+.checkbox label, .checkbox input {
+    cursor: pointer;
+}
+
+/* hidden by default */
+
+#settings, #viewUsers, #addUser, #delUser, #reactUser, #deactUser {
+    display: none;
+}
